@@ -1,0 +1,95 @@
+header
+    position: absolute
+    top: 0
+    left: 50%
+    transform: translateX(-50%)
+    z-index: 999
+    width: 100%
+    max-width: 1200px
+    display: flex
+    justify-content: space-between
+    align-items: center
+    padding-top: 20px
+    nav
+        width: 100%
+        max-width: 500px
+        ul
+            list-style: none
+            display: flex
+            justify-content: space-between
+            color: $white
+            font-size: 1.2em
+            li
+                text-transform: uppercase
+                a
+                    margin-right: 10px
+                    padding: 8px 10px
+                    border: 2px solid transparent
+                    color: #ddd
+                    transition: all 0.2s linear
+                    &:hover
+                        text-shadow: none
+                        color: #eeeeee
+                        border: 2px solid white
+                    
+#latestPost
+    position: relative
+    background: #eee
+    width: 100%
+    height: 800px
+    background: url('../img/clouds.jpg')
+    background-size: cover
+    display: flex
+    justify-content: flex-end
+    .postExcerpt
+        width: 100%
+        max-width: 820px
+        padding-bottom: 20px
+#postCarousel
+    display: flex
+    flex-direction: row
+    .post
+        position: relative
+        width: calc(100% / 4)
+        height: 400px
+        overflow: hidden
+        display: flex
+        flex-shrink: 0
+        justify-content: center
+        align-items: center
+        a
+            color: #fff
+            &:hover
+                text-shadow: none
+        img
+            width: auto
+            height: 100%
+        .postOver
+            position: absolute
+            z-index: 999
+            width: 100%
+            height: 100%
+            top: 0
+            left: 0
+            display: none;
+            justify-content: center
+            align-items: center
+            padding: 0 10px
+            h3
+                color: $white
+                z-index: 999
+                position: relative
+                padding: 8px 15px
+                border: 2px solid white
+@media(max-width: 1024px)
+    #postCarousel
+        .post
+            width: calc(100% / 3)
+    
+    
+    
+
+        
+
+    
+    

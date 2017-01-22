@@ -1,0 +1,29 @@
+{
+    "name": "pasja blogowania",
+    "version": "1.0.0",
+    "description": "'# pasja blogowania'",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/marcin-gajewski/pasjablogowania.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/marcin-gajewski/pasjablogowania.git/issues"
+    },
+    "homepage": "https://github.com/marcin-gajewski/pasjablogowania.git#readme",
+    "devDependencies": {
+        "gulp": "^3.9.1",
+        "gulp-autoprefixer": "^3.1.1",
+        "gulp-connect": "^5.0.0",
+        "gulp-jade": "^1.1.0",
+        "gulp-open": "^2.0.0",
+        "gulp-plumber": "^1.1.0",
+        "gulp-sass": "^2.3.2"
+    }
+}
